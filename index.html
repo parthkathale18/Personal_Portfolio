@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <title>Portfolio Website</title>
+</head>
+<body>
+
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#">
+            <h1><span>Par</span>th<span>_Kath</span>ale</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamb">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#one" data-after="Home">Home</a></li>
+            <li><a href="#expertise" data-after="Expertise">Expertise</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#education" data-after="Education">Education</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="one">
+    <div class="one container">
+      <div>
+        <h1>HELLO... <span></span></h1>
+        <h1>I'M PARTH KATHALE <span></span></h1>
+        <h1>TECH_ENTHUSIAST <span></span></h1>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScASXFRKxnio45S7lwEnsjgSv0dIUSRdp4wKrhkaqdHBf_5iQ/viewform?usp=sharing" type="button" class="cta">Hire Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="expertise">
+    <div class="expertise container">
+      <div class="expertise-top">
+        <h1 class="expertise-title">EXP<span>ERT</span>ISE</h1>
+        <p>Versatile engineering professional with a strong foundation in software development, embedded systems, and cloud technologies, demonstrating expertise across full-stack web design, machine learning, and hardware-software integration through innovative, impact-driven solutions.</p>
+      </div>
+
+      <div class="expertise-bottom">
+        <div class="expertise-item" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon"><img src="./img/design.png" /></div>
+          <h2>Custom Java Software Development</h2>
+          <p>Detail-oriented software developer with expertise in full-stack development, data-driven applications, and secure system design using Java, HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="expertise-item" data-aos="zoom-in" data-aos-delay="200">
+          <div class="icon"><img src="./img/web-deve.png" /></div>
+          <h2>Hardware & Embedded Systems</h2>
+          <p>Experienced in hardware design and embedded systems development with a strong foundation in digital and analog circuit design.</p>
+        </div>
+
+        <div class="expertise-item" data-aos="zoom-in" data-aos-delay="300">
+          <div class="icon"><img src="./img/app-deve.png" /></div>
+          <h2>Structured Programming & Data Systems</h2>
+          <p>Skilled in OOP and DBMS with extensive Java application development. Proficient in SQL and familiar with AWS for deployments. Hands-on in ML and signal classification.</p>
+        </div>
+
+        <div class="expertise-item" data-aos="zoom-in" data-aos-delay="400">
+          <div class="icon"><img src="./img/maintenance.png" /></div>
+          <h2>Soft Skills & Teamwork</h2>
+          <p>Strong communicator and team player with problem-solving, adaptability, and time management. Thrives in dynamic and innovative environments.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-top">
+        <h1 class="projects-title">PR<span>OJEC</span>TS</h1>
+        <p>I consistently applied my technical skills through practical project development across both software and hardware domains.</p>
+      </div>
+  
+      <div class="projects-grid">
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <img class="project-icon" src="./img/jdhjd.png" alt="Ticket Booking System">
+          <div class="project-content">
+            <h2 class="project-title">Ticket Booking System</h2>
+            <p class="project-desc">Developed a console-based Train Booking System in Java, utilizing Object-Oriented Programming and JSON-based file handling with the Jackson library for data persistence. Implemented secure user authentication using BCrypt with a custom utility class. The project demonstrated effective use of Core Java features, structured data management, and basic file I/O operations.</p>
+          </div>
+        </div>
+  
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <img class="project-icon" src="./img/ml.jpg" alt="ML Cold Detection">
+          <div class="project-content">
+            <h2 class="project-title">Vocal Analysis Using ML</h2>
+            <p class="project-desc">Implemented a machine learning-based system to analyze speech patterns and detect cold-induced anomalies. Utilized Variational Mode Decomposition (VMD) for multi-resolution signal analysis and engineered spectral and temporal feature extraction pipelines. Achieved 92% accuracy using optimized supervised classifiers on a dataset of over 1,000 annotated voice samples.</p>
+          </div>
+        </div>
+  
+        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <img class="project-icon" src="./img/IM.png" alt="Inventory Management">
+          <div class="project-content">
+            <h2 class="project-title">Inventory Management System</h2>
+            <p class="project-desc">Built a robust Inventory Management System in Java to streamline business inventory operations. Implemented full CRUD functionality with checks to prevent stock depletion and maintain data integrity. The system provided real-time inventory status to support informed decision-making.</p>
+          </div>
+        </div>
+  
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+          <img class="project-icon" src="./img/app-deve.png" alt="Stage Spotlight">
+          <div class="project-content">
+            <h2 class="project-title">Personal Portfolio</h2>
+            <p class="project-desc">A responsive portfolio website is built using HTML, CSS, and JavaScript to showcase my skills, projects, and education. It features smooth scrolling, animated sections via AOS, and interactive project cards with pop-up modals. A custom "Hire Me" form, education timeline, and mobile-friendly navigation enhance the user experience. The site is hosted on GitHub Pages and works seamlessly across all devices.</p>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+            <img class="project-icon" src="./img/code.jpg" alt="Stage Spotlight">
+            <div class="project-content">
+              <h2 class="project-title">Amazon Website User Interface</h2>
+              <p class="project-desc">This front-end web development project replicates Amazon's user interface using only HTML and CSS. It features responsive layouts that adapt to different screen sizes and devices. The project includes simulated navigation menus and product listings, closely resembling the original design. Emphasis was placed on achieving a clean and intuitive structure through well-organized layout techniques and styling.</p>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+  
+
+
+    <section id="education">
+        <div class="education container">
+          <h1 class="projects-title">Edu<span>cat</span>ion</span></h1>
+          <div class="timeline">
+            <div class="timeline-item left">
+              <div class="timeline-content">
+                <h2>B.Tech in Electronics Engineering</h2>
+                <h3>Shri Ramdeobaba College of Engineering, Nagpur</h3>
+                <span class="date">2021 - 2025</span>
+                <p>CGPA: 8 | Focus: Embedded Systems, Java, ML, Cloud</p>
+              </div>
+            </div>
+      
+            <div class="timeline-item right">
+              <div class="timeline-content">
+                <h2>HSC (12th)</h2>
+                <h3>Decent Junior College, Nagpur</h3>
+                <span class="date">2019 - 2021</span>
+                <p>Score: 96% | PCM with Computer Science</p>
+              </div>
+            </div>
+      
+            <div class="timeline-item left">
+              <div class="timeline-content">
+                <h2>SSC (10th)</h2>
+                <h3>Podar World School, Nagpur</h3>
+                <span class="date">2018 - 2019</span>
+                <p>Score: 81% | CBSE Board</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./img/I.jpg" />
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="projects-title">About <span>Me</span></h1>
+                <h2>Tech Enthusiast</h2>
+                <p>I am a motivated and detail-oriented individual with a deep interest in building practical solutions and continuously expanding my knowledge. Throughout my academic and personal journey, I have actively engaged in hands-on projects and collaborative work, which has strengthened my ability to think critically, adapt quickly, and solve problems effectively. I enjoy turning ideas into meaningful outcomes and thrive in environments that encourage innovation and learning.
+                My technical foundation allows me to approach system design and development with a clear, structured mindset. I am confident in my ability to build efficient, scalable, and secure solutions that balance functionality with user experience. Whether working independently or within a team, I prioritize clean and maintainable work, value clear communication, and consistently seek ways to improve both the process and the product. I aim to grow as a well-rounded professional and contribute to impactful, future-ready solutions.</p>
+
+                <a href="https://drive.google.com/drive/folders/1cl-9h_Ru9cahheUYKvGstSE0snifTbBz?usp=drive_link" class="cat">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact container">
+            <div>
+                <h1 class="projects-title">Contact <span>Info</span></h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="./img/gmail.png" />
+                    </div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>parthakathale@gmail.com</h2>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon"><img src="./img/phone.png" /></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+91 9834536457</h2>
+                        <h2>+91 8669406278</h2>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="icon"><img src="./img/location.png" /></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Plot B6, Vrundavan Estate, Godhani Railway, Nagpur (India) </h2>
+                        <h2>Pincode : 441111</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand ">
+                <h1><span>Par</span>th <span>Kath</span>ale</h1>
+            </div>
+            <h2>Tech Enthusiast</h2>
+            <div class="social-icon">
+            <div class="social-item">
+                <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><img src="./img/linkedin.png" /></a>
+            </div>
+
+            <div class="social-item">
+                <a href="https://www.instagram.com/parthkathale18/"><img src="./img/instagram-logo.png" /></a>
+            </div>
+
+            <div class="social-item">
+                <a href="https://github.com/parthkathale18"><img src="./img/github-logo.png" /></a>
+            </div>
+            </div>
+
+            <p>Copyright © 2025 Parth Kathale</p>
+        </div>
+
+    </section>
+
+    <!-- 🔚 This goes at the END, just before </body> -->
+
+<!-- Project Modal Popup -->
+ <div id="projectModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+    </div>
+  </div>
+
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
